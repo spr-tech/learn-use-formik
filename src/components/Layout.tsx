@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <div className="min-h-screen flex flex-col bg-white text-neutral-900">
-      <header className="border-b border-neutral-200">
+      <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-neutral-200">
         <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between text-sm">
           <Link to="/" className="font-semibold">
             Rubies Shop
